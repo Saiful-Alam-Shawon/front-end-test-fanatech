@@ -1,0 +1,394 @@
+.font-color {
+    color: #396C03;
+    width: 141.6px;
+    height: 46.48px;
+}
+
+.Merienda {
+    font-family: 'Merienda'
+}
+
+.login-text {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.Poppins {
+    font-family: 'Poppins';
+
+}
+
+.cart {
+    background: #396C03;
+    color: aliceblue;
+    border-radius: 27px;
+    font-size: 10px;
+}
+
+.button-bg {
+    background: #396C03;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    color: aliceblue;
+    /* font-family: FontAwesome; */
+}
+
+.top {
+    background-color: rgb(255, 106, 0);
+    border-radius: 23px;
+}
+
+.width {
+    width: 90%;
+}
+
+.right1 {
+    right: 1%;
+}
+
+
+
+.left1 {
+    left: 42%;
+}
+
+.top17 {
+    top: 17%;
+}
+
+.top37 {
+    top: 37%;
+}
+
+.top-02 {
+    top: 37%;
+}
+
+.end-03 {
+    right: 17%;
+}
+
+
+.image-width {
+    margin-top: 160px;
+}
+
+.background {
+    background-image: url("./how-to-draw-landscapes-78.jpg");
+    width: 100%;
+    height: 300px;
+    margin-right: 20px;
+    margin-top: 120px;
+}
+
+
+.header-bg {
+    background-color: rgb(230, 246, 246);
+}
+
+.tik {
+    color: rgb(232, 169, 9);
+    text-align: center;
+    font-weight: 700;
+}
+
+.sub {
+    text-align: center;
+}
+
+
+.form {
+    width: 75%;
+    background-color: darkgrey;
+    display: flex;
+    border: darkgrey 1px solid;
+    border-radius: 20px;
+
+}
+
+.input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+
+.circle {
+    /* height: 25px;
+    width: 27px;
+    border-radius: 23px; */
+    background-color: rgb(255, 106, 0);
+    ;
+}
+
+.search {
+    /* font-family: FontAwesome; */
+    color: rgb(255, 106, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    size: 8px;
+}
+
+.margin {
+    margin-left: 102px;
+}
+
+.body-font {
+    color: #396C03;
+    font-size: 50px;
+}
+
+.button {
+    background: #396C03;
+    border-radius: 225px;
+    color: aliceblue;
+}
+
+
+
+
+
+/* large Media */
+
+
+@media screen and (min-width: 992px) {
+    .media1 {
+        background-color: red;
+    }
+
+    .bash {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* medium Media */
+
+@media screen and (max-width:991px) {
+    .grid-small {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 200px;
+    }
+
+
+    .soto-plates {
+        width: 35%;
+    }
+
+    .background-gif {
+        width: 100%;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .d-hidden {
+        display: none;
+    }
+
+    .top-0s {
+        top: 85%;
+    }
+
+    .start-0s {
+        left: 2%;
+    }
+
+    .top-105s {
+        top: 102%;
+    }
+
+    .ends {
+        right: 16%;
+    }
+
+    .top-205s {
+        top: 105%;
+    }
+
+    .end03s {
+        right: 40%;
+    }
+
+}
+
+@media screen and (max-width:895px) {
+    .top-501sm {
+        top: 98%;
+    }
+
+    .top-50sm {
+        top: 92%;
+    }
+
+    .top-502sm {
+        top: 104%;
+    }
+}
+
+@media screen and (max-width:787px) {
+
+    .sm-margin {
+        margin-top: 30px;
+    }
+
+    .grid-smallsss {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 30px;
+    }
+
+    .solo-plate {
+        width: 25%;
+    }
+
+    .solo-plates {
+        width: 15%;
+    }
+
+    .top-80sm {
+        top: 80%;
+    }
+
+    .start-80sm {
+        left: 7%;
+    }
+
+    .top-581sm {
+        top: 81%;
+    }
+
+    .end50sm {
+        right: 26%;
+    }
+
+    .top-572sm {
+        top: 78%;
+    }
+
+    .end-573sm {
+        right: 42%;
+    }
+
+}
+
+@media screen and (max-width:634px) {
+    .top-50112sm {
+        top: 87%;
+    }
+
+    .soto-80s {
+        left: 9%;
+    }
+
+    .top-94sm {
+        top: 94%;
+    }
+
+    .end-984 {
+        right: 26%
+    }
+
+    .top114sm {
+        top: 90%;
+    }
+}
+
+
+@media screen and (max-width:590px) {
+    /* .sm-margin {
+        margin-top: 130px;
+    }
+
+    .grid-last {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 00px;
+    } */
+
+    .end-70sm {
+        left: 7%;
+    }
+
+    .top-1501sm {
+        top: 101%;
+    }
+
+    .top-50sm1 {
+        top: 104%;
+    }
+
+    .e1nd-503sm {
+        right: 27%;
+    }
+
+    .top-9502sm {
+        top: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:573px) {
+
+    .top-501sm11 {
+        top: 114%;
+    }
+
+    .top-50sm119 {
+        top: 119%;
+    }
+
+    .top-502s11m {
+        top: 113%;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .p-wid {
+        width: 15%;
+    }
+
+    .top-501s1m1 {
+        top: 124%;
+    }
+
+    .top-50soom {
+        top: 122%;
+    }
+
+    .top-502sm11111 {
+        left: 13%;
+    }
+}
+
+@media screen and (max-width:449px) {
+    .margin-font {
+        margin: 10px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:359px) {
+    .width-height {
+        width: 100px;
+        height: 70px;
+    }
+
+    .top-501s1444m {
+        top: 144%;
+    }
+
+    .top-502s25m {
+        top: 135%;
+    }
+}
